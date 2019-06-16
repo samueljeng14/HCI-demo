@@ -1,0 +1,105 @@
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+body {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	background-color: white;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 30px;
+	box-shadow: 0px 20px 40px -12px rgba(113, 113, 113, 0.49);
+	margin-top: 100px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.conainer {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+}
+
+.button {
+	border-radius: 10px;
+	padding: 0px 55px;
+	display: inline-block;
+	border: 3px solid #f6e82c;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.button:hover {
+	background-color: #f6e82c;
+	transition-duration: 0.3s;
+}
+
+.un {
+	transition-duration: 0.5s;
+}
+
+.done {
+	opacity: 0;
+	font-size: 40px;
+	position: absolute;
+	top: -35px;
+	width: 100px;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+.text {
+	opacity: 0;
+	transition-duration: 0.5s;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.fullYellow {
+	background-color: #f6e82c;
+	border: 3px solid #f6e82c;
+}
+
+.cart {
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.cart img {
+	width: 60px;
+}
+
+.dot {
+	opacity: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	color: white;
+	background-color: #f0584c;
+	font-size: 3px;
+	text-align: center;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	transition-delay: 0.5s;
+	transition-duration: 0.3s;
+}
