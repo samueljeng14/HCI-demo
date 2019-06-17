@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	// console.log("hoho");
-	$(".center").mousemove(function() {
-		var pageX = event.pageX - $(this).offset().left;
-		var pageY = event.pageY - $(this).offset().top;
+	// $(".center").mousemove(function() {
+	// 	var pageX = event.pageX - $(this).offset().left;
+	// 	var pageY = event.pageY - $(this).offset().top;
 
-		console.log("X: " + pageX + "  Y: " + pageY);
-	});
+	// 	console.log("X: " + pageX + "  Y: " + pageY);
+	// });
 
 	$(".asus").click(function() {
 		$(".1-left").toggleClass('none');
