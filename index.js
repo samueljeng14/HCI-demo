@@ -31,7 +31,7 @@ $(document).ready(function() {
 	});
 
 	$(".detail").click(function() {
-		$(".left, .right, .center, #cart").toggleClass('none');
+		$(".left, .right, .center, #cart, .norm-header, .4-header").toggleClass('none');	
 	});
 
 
